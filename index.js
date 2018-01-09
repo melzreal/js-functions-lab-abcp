@@ -2,26 +2,26 @@
 
 function happyHolidays(){
  
- return( 'Happy holidays!');
+ return( `Happy holidays!`);
  
 }
 
 
 function happyHolidaysTo(string){
  
- return( 'Happy holidays, ${string}');
+ return( `Happy holidays, ${string}!`);
  
 }
 
 
 function happyHolidayTo(holiday, name){
  
- return( 'Happy ${holiday}, ${name} !');
+ return( `Happy ${holiday}, ${name}!`);
  
 }
 
 function holidayCountdown(days, holiday){
  
- return( 'Its ${days} days until ${holiday}!');
+ return( `It\'s ${holiday} days until ${days}!`);
  
 }
